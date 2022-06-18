@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 900px) {
-  .top-content {   
+@media screen and (max-width: 700px) {
+  .top-content {
     float: none;
   }
 }
@@ -17,16 +17,15 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction:column ;
+  flex-direction: column;
   float: left;
-  
 }
 .top-content {
-  width:100%;
+  width: 100%;
   display: flex;
-  flex:wrap;
-  padding:100px;
-  padding-top:10%;
+  flex: wrap;
+  padding: 100px;
+  padding-top:20%;
 }
 .sedan {
   background-color: hsl(31, 77%, 52%);
@@ -54,7 +53,7 @@ h2 {
   color: white;
   font-size: 34px;
 }
-button{
+button {
   font-size: 16px;
   padding: 16px 30px;
   border: none;
@@ -64,7 +63,7 @@ button{
   font-family: "Lexend Deca";
 }
 
-.sedan button{
+.sedan button {
   color: hsl(31, 77%, 52%);
 }
 .suv button {
