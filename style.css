@@ -11,13 +11,13 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 main {
-  /*width: 50%;*/
   /*margin: auto;*/
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
+  width: 100%;
+  flex-direction:row;
   float: left;
 }
 .top-content {
